@@ -1,13 +1,2 @@
-var planetInfo = {name: 'pluto', diameter: '2,301 km', orbitTime: '248 Earth years'}
 
-function getPlutoName() {
-	return planetInfo.name;
-}
-
-function getPlutoDiameter(){
-	return planetInfo.diameter;
-}
-
-function getPlutoOrbitTime() {
-	return planetInfo.orbitTime;
-}
+////This is commited with JGit at Wed Mar 02 13:23:04 CET 2016
