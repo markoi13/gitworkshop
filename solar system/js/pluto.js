@@ -1,4 +1,4 @@
-var planetInfo = {name: 'Pluto', diameter: '2,301 km', orbitTime: '248 Earth years'}
+var planetInfo = {name: 'pluto', diameter: '2,301 km', orbitTime: '248 Earth years'}
 
 function getPlutoName() {
 	return planetInfo.name;
