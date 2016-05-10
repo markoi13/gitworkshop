@@ -3,6 +3,78 @@
 <head>
 </head>
 <body style="background-image: url('images/solar_system_empty.png'); background-repeat: no-repeat;">
-<!-- your code here -->
+<div id="mercury" style="position: absolute; top: 341px; left: 229px;">
+<img src="images/mercury.png">
+    <script src="js/mercury.js"></script>
+    <script>
+        document.querySelector('div#mercury > img').title = "Hi, I a'm " + getMercuryName() 
+        + ". My diameter is " + getMercuryDiameter() 
+        + " and I orbit the Sun in " + getMercuryOrbitTime();
+    </script>
+</div>
+<div id="venus" style="position: absolute; top: 321px; left: 283px;">
+    <img src="images/venus.png">
+    <script src="js/venus.js"></script>
+    <script>
+        document.querySelector('div#venus > img').title = "Hi, I a'm " + getVenusName() 
+        + ". My diameter is " + getVenusDiameter() 
+        + " and I orbit the Sun in " + getVenusOrbitTime();
+    </script>
+</div>
+<div id="earth" style="position: absolute; top: 316px; left: 376px;">
+    <img src="images/earth.png">
+    <script src="js/earth.js"></script>
+    <script>
+        document.querySelector('div#earth > img').title = "Hi, I a'm " + getEarthName() 
+        + ". My diameter is " + getEarthDiameter() 
+        + " and I orbit the Sun in " + getEarthOrbitTime();
+    </script>
+</div>
+<div id="mars" style="position: absolute; top: 323px; left: 476px;">
+    <img src="images/mars.png">
+    <script src="js/mars.js"></script>
+    <script>
+        document.querySelector('div#mars > img').title = "Hi, I a'm " + getMarsName() 
+        + ". My diameter is " + getMarsDiameter() 
+        + " and I orbit the Sun in " + getMarsOrbitTime();
+    </script>
+</div>
+<div id="jupiter" style="position: absolute; top: 282px; left: 566px;">
+    <img src="images/jupiter.png">
+    <script src="js/jupiter.js"></script>
+    <script>
+        document.querySelector('div#jupiter > img').title = "Hi, I a'm " + getJupiterName() 
+        + ". My diameter is " + getJupiterDiameter() 
+        + " and I orbit the Sun in " + getJupiterOrbitTime();
+    </script>
+</div>
+<div id="saturn" style="position: absolute; top: 264px; left: 740px;">
+    <img src="images/saturn.png">
+    <script src="js/saturn.js"></script>
+    <script>
+        document.querySelector('div#saturn > img').title = "Hi, I a'm " + getSaturnName() 
+        + ". My diameter is " + getSaturnDiameter() 
+        + " and I orbit the Sun in " + getSaturnOrbitTime();
+    </script>
+</div>
+<div id="uranus" style="position: absolute; top: 312px; left: 909px;">
+    <img src="images/uranus.png">
+    <script src="js/uranus.js"></script>
+    <script>
+        document.querySelector('div#uranus > img').title = "Hi, I a'm " + getUranusName() 
+        + ". My diameter is " + getUranusDiameter() 
+        + " and I orbit the Sun in " + getUranusOrbitTime();
+    </script>
+</div>
+<div id="neptune" style="position: absolute; top: 318px; left: 1024px;">
+    <img src="images/neptune.png">
+    <script src="js/neptune.js"></script>
+    <script>
+        document.querySelector('div#neptune > img').title = "Hi, I a'm " + getNeptuneName() 
+        + ". My diameter is " + getNeptuneDiameter() 
+        + " and I orbit the Sun in " + getNeptuneOrbitTime();
+    </script>
+</div>
+
 </body>
 </html>
