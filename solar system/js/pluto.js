@@ -1,26 +1,13 @@
+var planetInfo = {name: 'Pluto', diameter: 'N/A', orbitTime: '248 Earth years'}
 
-////This is commited with JGit at Wed Mar 02 13:23:04 CET 2016
-////This is commited with JGit at Wed Mar 02 13:37:07 CET 2016
+function getPlutoName() {
+	return planetInfo.name;
+}
 
+function getPlutoDiameter(){
+	return planetInfo.diameter;
+}
 
-
-
-
-
-
-
-"saduhwqo chuhh glufweqiuhiojiopjiof h" fsad cfsdafiy3g r73fiugsdkfghasoif
-
-
-
-
-
-
-
-
-
-
-
-
-testingit
-////This is commited with JGit at Wed Mar 02 13:41:08 CET 2016
+function getPlutoOrbitTime() {
+	return planetInfo.orbitTime;
+}
