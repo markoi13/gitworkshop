@@ -11,3 +11,4 @@ function getEarthDiameter(){
 function getEarthOrbitTime() {
    return planetInfo.orbitTime;
 }
+
